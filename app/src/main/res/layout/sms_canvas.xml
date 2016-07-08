@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@color/SteelBlue"
+
+    android:orientation="vertical" >
+     <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9715098980887036/3322071300" />
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/smsback" />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+
+
+        android:background="@color/LightBlue"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+         
+         
+        <TextView
+            android:id="@+id/tvSMSHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provide your exam details"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spnExam"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/spinnerxml"
+            android:textColor="@color/Blue"
+
+            android:gravity="center_horizontal" />
+
+        <Spinner
+            android:id="@+id/spnYear"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/spinnerxml"
+            android:textColor="@color/Blue"
+            android:gravity="center_horizontal" />
+
+        <Spinner
+            android:id="@+id/spnBoard"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/Blue"
+            android:background="@drawable/spinnerxml"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/etRoll"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Roll Number"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="@color/Blue"
+            android:textSize="25sp"
+             >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSMSsend"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:onClick="sendSMS"
+            android:textSize="18sp"
+            android:text="Send"
+            android:textColor="@color/White"
+             />
+
+    </LinearLayout>
+
+</LinearLayout>

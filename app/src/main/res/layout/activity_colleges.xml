@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+'    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9715098980887036/3322071300" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/dhakacollege" />
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Spinner-->
+            <!--android:id="@+id/spnCollegeBoard"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:background="@drawable/spinnerxml"-->
+            <!--android:textColor="@color/Blue"-->
+            <!--android:gravity="center_horizontal" />-->
+
+        <!--<Spinner-->
+            <!--android:id="@+id/spnCollegeDist"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/spinnerxml"-->
+            <!--android:textColor="@color/Blue"-->
+            <!--android:gravity="center_horizontal" />-->
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhaka Board"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+                        android:onClick="collegeDhaka"
+            android:id="@+id/tvCollegeDhaka" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chittagong Board"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:onClick="collegeCTG"
+            android:id="@+id/tvCollegeCTG" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sylhet Board"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="collegeSylhet"
+            android:id="@+id/tvCollegeSylhet" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jessore Board"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="collegeJessore"
+            android:id="@+id/tvCollegeJessore" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barisal Board"
+            android:gravity="center_horizontal"
+            android:onClick="collegeBarisal"
+            android:layout_weight="1"
+            android:id="@+id/tvCollegeBarisal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajshahi Board"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="collegeRajshahi"
+            android:id="@+id/tvCollegeRajshahi" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinajpur Board"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:onClick="collegeDinajpur"
+            android:id="@+id/tvCollegeDinajpur" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comilla Board"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:onClick="collegeComilla"
+                android:id="@+id/tvCollegeComilla" />
+        </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Madrasa Board"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:onClick="collegeMadrasa"
+                android:id="@+id/tvCollegeMadrasa" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <!--<android.support.v7.widget.AppCompatImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:background="@drawable/underconstruction" />-->
+    <!--<android.support.v7.widget.AppCompatAutoCompleteTextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Wait for an update"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:textSize="30sp"-->
+        <!--android:shadowColor="@color/DarkRed"-->
+        <!--android:textStyle="bold"/>-->
+</LinearLayout>

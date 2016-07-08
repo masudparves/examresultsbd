@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9715098980887036/3322071300" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Barisal Board"
+        android:textColor="@color/Green"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Rank"
+            android:textColor="@color/DarkGreen"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="College"
+            android:textColor="@color/DarkGreen"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Contact"
+            android:textColor="@color/DarkGreen"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/tableRowb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="1"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Barisal Cadet College"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+
+                    android:gravity="center_vertical"
+                    android:onClick="b1"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="2"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Amritalal Dey College"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b2"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="3"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Government Syed Hatem Ali College"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b3"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="4"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Barisal Government Women's College"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b4"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="5"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Nizamuddin College, Hosnabad"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b5"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+<TableRow
+                android:id="@+id/tableRowb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="6"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Maukaran B. L. P. Degree College, Patuakhali Sadar"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b6"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="7"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Shaheed Abdur Rob Serniabat Degree College. Agailjhara"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b7"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+<TableRow
+                android:id="@+id/tableRowb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="8"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Daulatkhan Abu Abdullah College, Daulatkhan, Bhola"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b8"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="9"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Barisal Model School and College, Barisal Sadar"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b9"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="10"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text=" Perojpur Government Girls' College, Pirojpur Sadar"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b10"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="11"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Galachipa Degree College, Galachipa,Patuakhali"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b11	"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="12"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text=" Charfasson College, Charfassion, Bhola"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b12"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="13"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text=" Babugani College, Babugani, Barisal"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b13"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="14"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Alhaz B. N. Khan Degree College,Uiirpur"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b14"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="15"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Syed Fazlul Haque Mahavidyalya, Patharghata"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b15"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="16"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Mahilara Degree College, Gournadi"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b16"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb18	"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="17"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Dhamura Degree College,Uiirpur"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b17"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="18"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Ghoskhati Mohavidyalaya. Naiirpur"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b18"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="19"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Patuakhali Government Mahila College,Patuakhali Sadar"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b19"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+<TableRow
+                android:id="@+id/tableRowb21	"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="20"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Nazirpur Shahid Zia College Nazirpur"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="b20"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRowb7"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center_vertical">-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="6"-->
+                    <!--android:textColor="@color/DarkGreen"-->
+
+                    <!--android:textSize="16dp"-->
+                    <!--android:textStyle="bold"></TextView>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="220dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="Dhaka Residential Model College"-->
+                    <!--android:textSize="14dp" />-->
+
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:onClick="d6"-->
+                    <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRowb8"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center_vertical">-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="7"-->
+                    <!--android:textColor="@color/DarkGreen"-->
+
+                    <!--android:textSize="16dp"-->
+                    <!--android:textStyle="bold"></TextView>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="220dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="Mirzapur Cadet College"-->
+                    <!--android:textSize="14dp" />-->
+
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:onClick="d7"-->
+                    <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRowb9"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center_vertical">-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="8"-->
+                    <!--android:textColor="@color/DarkGreen"-->
+
+                    <!--android:textSize="16dp"-->
+                    <!--android:textStyle="bold"></TextView>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="220dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="Dhaka City College"-->
+                    <!--android:textSize="14dp" />-->
+
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:onClick="d8"-->
+                    <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRowb10"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center_vertical">-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="9"-->
+                    <!--android:textColor="@color/DarkGreen"-->
+
+                    <!--android:textSize="16dp"-->
+                    <!--android:textStyle="bold"></TextView>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="220dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="National Ideal College"-->
+                    <!--android:textSize="14dp" />-->
+
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:onClick="d9"-->
+                    <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRowb11"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center_vertical">-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="10"-->
+                    <!--android:textColor="@color/DarkGreen"-->
+
+                    <!--android:textSize="16dp"-->
+                    <!--android:textStyle="bold"></TextView>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="220dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="SOS Hermann Gmeiner College"-->
+                    <!--android:textSize="14dp" />-->
+
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:onClick="d10"-->
+                    <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+
+        </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

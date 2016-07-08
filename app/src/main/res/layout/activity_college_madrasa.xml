@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9715098980887036/3322071300" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Madrasa Board"
+        android:textColor="@color/Green"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Rank"
+            android:textColor="@color/DarkGreen"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="College"
+            android:textColor="@color/DarkGreen"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Contact"
+            android:textColor="@color/DarkGreen"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/tableRowm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="1"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Tamirul Millat Kamil Madrasah, Jatrabari"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+
+                    android:gravity="center_vertical"
+                    android:onClick="m1"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="2"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Jhalokathi NS Kamil Madrasah"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="m2"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowm4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="3"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Tamirul Millat Kamil Madrasah, Tongi"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="m3"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowm5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="4"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Darunnazat Siddikia Kamil Madrasah, Demra"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="m4"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowm6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="5"
+                    android:textColor="@color/DarkGreen"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Dhap Satgara Baitul Mukarram Kamil Madrash, Rangpur"
+                    android:textSize="14dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:onClick="m5"
+                    android:text="Contact Now" />
+
+            </TableRow>
+
+            <!--<TableRow-->
+            <!--android:id="@+id/tableRowm7"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="6"-->
+            <!--android:textColor="@color/DarkGreen"-->
+
+            <!--android:textSize="16dp"-->
+            <!--android:textStyle="bold"></TextView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="Dhaka Residential Model College"-->
+            <!--android:textSize="14dp" />-->
+
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:onClick="d6"-->
+            <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+            <!--android:id="@+id/tableRowm8"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="7"-->
+            <!--android:textColor="@color/DarkGreen"-->
+
+            <!--android:textSize="16dp"-->
+            <!--android:textStyle="bold"></TextView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="Mirzapur Cadet College"-->
+            <!--android:textSize="14dp" />-->
+
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:onClick="d7"-->
+            <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+            <!--android:id="@+id/tableRowm9"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="8"-->
+            <!--android:textColor="@color/DarkGreen"-->
+
+            <!--android:textSize="16dp"-->
+            <!--android:textStyle="bold"></TextView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="Dhaka City College"-->
+            <!--android:textSize="14dp" />-->
+
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:onClick="d8"-->
+            <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+            <!--android:id="@+id/tableRowm10"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="9"-->
+            <!--android:textColor="@color/DarkGreen"-->
+
+            <!--android:textSize="16dp"-->
+            <!--android:textStyle="bold"></TextView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="National Ideal College"-->
+            <!--android:textSize="14dp" />-->
+
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:onClick="d9"-->
+            <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow-->
+            <!--android:id="@+id/tableRowm11"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="10"-->
+            <!--android:textColor="@color/DarkGreen"-->
+
+            <!--android:textSize="16dp"-->
+            <!--android:textStyle="bold"></TextView>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="SOS Hermann Gmeiner College"-->
+            <!--android:textSize="14dp" />-->
+
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:onClick="d10"-->
+            <!--android:text="Contact Now" />-->
+
+            <!--</TableRow>-->
+
+
+        </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

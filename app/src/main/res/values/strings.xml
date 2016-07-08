@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exam Results BD</string>
+    <string name="start_facebook">Start Facebook</string>
+    <string name="attention">Attention!!!</string>
+    <string name="tv_stepone">Step 1: Turn off all background data from Settings\n(For details, see About)</string>
+    <string name="tv_steptwo">Step 2: Start Facebook\n(Caution: This will turn off WiFi and Turn on GPRS/data)</string>
+    <string name="tv_wifi">To use this app, please turn off WiFi and turn on GPRS/EDGE/3G from Settings. Then turn off background data in the Settings->More->Usage->Option->Restrict Background Data to avoid charges for background data by other apps.</string>
+    <string name="tv_pro">to use Free Facebook with Images download the PRO version.</string>
+    <string name="tv_btnPro">Pro Version</string>
+    <string name="btn_rate">Rate</string>
+    <string name="btn_more_apps">More Apps</string>
+    <string name="btn_about">About</string>
+    <string name="btn_settings">Settings</string>
+
+    <string-array name="year_list">
+        <item>Exam Year</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+    </string-array>
+    <string-array name="exam_list">
+        <item>Exam Name</item>
+        <item>JSC</item>
+    <item>JDC</item>
+        <item>SSC</item>
+        <item>HSC</item>
+    </string-array>
+
+    <string-array name="board_list">
+        <item>Exam Board</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Barisal</item>
+        <item>Khulna</item>
+        <item>Comilla</item>
+        <item>Dinajpur</item>
+        <item>Jessore</item>
+        <item>Rajshahi</item>
+        <item>Sylhet</item>
+        <item>Technical (VOC)</item>
+        <item>Madrasa</item>
+
+    </string-array>
+    <string name="title_activity_college_dhaka">CollegeDhaka</string>
+    <string name="title_activity_college_sylhet">CollegeSylhet</string>
+    <string name="title_activity_college_rajshahi">CollegeRajshahi</string>
+    <string name="title_activity_college_jessore">CollegeJessore</string>
+    <string name="title_activity_college_barisal">CollegeBarisal</string>
+    <string name="title_activity_college_ctg">CollegeCtg</string>
+    <string name="title_activity_college_comilla">CollegeComilla</string>
+    <string name="title_activity_college_dinajpur">CollegeDinajpur</string>
+    <string name="title_activity_public_university">PublicUniversity</string>
+    <string name="title_activity_private_university">PrivateUniversity</string>
+    <string name="title_activity_medical_college">MedicalCollege</string>
+    <string name="title_activity_engineering_university">EngineeringUniversity</string>
+    <string name="title_activity_other_institute">OtherInstitute</string>
+    <string name="title_activity_college_madrasa">CollegeMadrasa</string>
+
+</resources>

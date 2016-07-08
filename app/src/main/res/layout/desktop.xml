@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+     android:id="@+id/linLay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        ads:loadAdOnCreate="true"
+        ads:loadAdOnResume="true"
+        ads:testDevices="TEST_EMULATOR, xxxxxxxxxxxxxxxxxx"
+        android:gravity="center_horizontal"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="a15219f1ce5f08b" >
+
+    </com.google.ads.AdView>
+
+</FrameLayout>

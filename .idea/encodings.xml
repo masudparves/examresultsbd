@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeBarisal.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeComilla.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeCtg.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeDhaka.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeDinajpur.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeJessore.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeMadrasa.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeRajshahi.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/masud/dev/examresultsbd/CollegeSylhet.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_barisal.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_comilla.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_ctg.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_dhaka.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_dinajpur.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_jessore.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_madrasa.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_rajshahi.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_college_sylhet.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
